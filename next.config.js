@@ -10,7 +10,11 @@ if (isGithubActions) {
   basePath = `/${repo}`
 }
 
-module.exports = {
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  output: 'export',
   assetPrefix: assetPrefix,
   basePath: basePath,
   images: {
@@ -18,3 +22,5 @@ module.exports = {
     path: 'sdv.imgix.net',
   },
 }
+
+module.exports = nextConfig
