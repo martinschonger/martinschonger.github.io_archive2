@@ -1,5 +1,12 @@
 {
+  "name": "schonger-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "build": "next build",
-  }
+  },
+  "keywords": [],
+  "author": "Martin Schonger",
+  "license": "GPLv3"
 }
