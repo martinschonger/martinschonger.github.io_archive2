@@ -23,8 +23,6 @@ jobs:
       - name: Build
         run: |
           npm ci
-          npm pkg set scripts.build="next build"
-          npm pkg set scripts.export="next export"
           npm run build
           npm run export
           touch out/.nojekyll
