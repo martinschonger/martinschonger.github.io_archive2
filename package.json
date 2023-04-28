@@ -1,7 +1,5 @@
 {
-  "name": "Node.js CI",
   "scripts": {
     "build": "next build",
-    "export": "next export",
   }
 }
